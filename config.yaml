@@ -1,0 +1,19 @@
+project_name: Hyper Terminal
+
+# only ingest items published in the last N days
+max_age_days: 1
+
+rss_feeds:
+  - https://techcrunch.com/tag/ai/feed/
+  - https://www.reddit.com/r/MachineLearning/.rss
+
+github:
+  repos:
+    - openai/gpt-4o
+    - pytorch/pytorch
+
+twitter:
+  keywords:
+    - AI
+    - LLM
+  user_ids: []
